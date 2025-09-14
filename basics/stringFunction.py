@@ -1,3 +1,5 @@
+#Day - 01
+
 n = 'this Is PytHon'
 print(n)
 print(n.upper())    #all words capital
@@ -18,3 +20,18 @@ print(line.count('i'))
 
 word = 'Python code Python test'
 print(word.count('Python'))
+
+#Day - 02
+
+n = 'A12b'
+print(n.isalnum())
+
+r = 'Abc'
+print(r.isalpha())
+
+w = '123'
+print(w.isdigit())
+
+m = 'ASF'
+print(m.isupper())
+print(m.islower())
